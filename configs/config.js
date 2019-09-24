@@ -1,7 +1,7 @@
 const path = require('path');
 const ROOT = path.resolve(__dirname, '..');
 const ip = require('ip').address();
-console.log('hahahahha***********', process.env.CATE_NAME);
+console.log(`${process.env.CATE_NAME}项目正在启动中……`);
 const project_category_name = process.env.CATE_NAME || 'base';
 
 const config = {
