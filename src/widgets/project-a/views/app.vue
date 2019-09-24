@@ -1,7 +1,7 @@
 <template>
   <div class="flex-column center">
     <dof-image src="/assets/image/logo.png" width="150px" height="150px"></dof-image>
-    <text class="h2">common 模版</text>
+    <text class="h2">配置eslint代码检查 模版</text>
     <text class="h4 margin-top-40 margin-bottom-20">weex 实践</text>
     <dof-button text="快速查看" type="primary" size="big" @dofButtonClicked="jumpTo"></dof-button>
     <!-- <div class="document-url">
