@@ -1,0 +1,113 @@
+[
+  {
+    "name": "定时模式",
+    "code": "timingMode",
+    "type": 2,
+    "min": 0,
+    "max": 0,
+    "step": 0,
+    "times": 0,
+    "unit": "",
+    "defaultValue": "countdown",
+    "options": [
+      {
+        "code": "accurate",
+        "name": "精确定时"
+      },
+      {
+        "code": "countdown",
+        "name": "倒计时"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "name": "颜色",
+    "code": "color",
+    "type": 0,
+    "min": 0,
+    "max": 0,
+    "step": 0,
+    "times": 0,
+    "unit": "",
+    "defaultValue": "",
+    "options": [
+      {
+        "code": "on",
+        "name": "打开"
+      },
+      {
+        "code": "off",
+        "name": "关闭"
+      }
+    ],
+    "tags": []
+  },
+
+  {
+    "name": "色温",
+    "code": "color_temperature",
+    "type": 1,
+    "min": 2000,
+    "max": 6500,
+    "step": 50,
+    "times": 0,
+    "unit": "K",
+    "defaultValue": "2500",
+    "options": [
+      {
+        "code": "life",
+        "name": "生活模式"
+      },
+      {
+        "code": "romantic",
+        "name": "浪漫模式"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "name": "亮度",
+    "code": "brightness",
+    "type": 1,
+    "min": 1,
+    "max": 100,
+    "step": 1,
+    "times": 0,
+    "unit": "%",
+    "defaultValue": "20",
+    "options": [
+      {
+        "code": "life",
+        "name": "生活模式"
+      },
+      {
+        "code": "romantic",
+        "name": "浪漫模式"
+      }
+    ],
+    "tags": []
+  },
+  {
+    "name": "错误码",
+    "code": "error_code",
+    "type": 3,
+    "min": 0,
+    "max": 0,
+    "step": 0,
+    "times": 0,
+    "unit": "",
+    "defaultValue": "",
+    "options": [
+      {
+        "code": "0x01",
+        "name": "漏电保护（E1）"
+      },
+      {
+        "code": "0x02",
+        "name": "传感器故障保护（E2）"
+      }
+    ],
+    "tags": []
+  }
+]
