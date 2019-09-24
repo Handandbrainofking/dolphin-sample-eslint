@@ -12,7 +12,7 @@
     >
     </dof-minibar>
     <div class="remark">
-      <text class="title">{{name}}</text>
+      <text class="title">{{ name }}</text>
     </div>
     <div class="footer">
       <text class="copyright">@Midea IOT software</text>
@@ -28,7 +28,7 @@ export default {
     DofMinibar
   },
   data: () => ({
-    title: "Demo",
+    title: 'Demo',
     name: 'dolphin weex ui 示例项目 + 基础架构',
     bgUrl: './assets/image/computer.jpg'
   })
@@ -53,7 +53,7 @@ export default {
   position: absolute;
   top: 300px;
   width: 750px;
-  align-items: center
+  align-items: center;
 }
 .title {
   color: #0092d7;
