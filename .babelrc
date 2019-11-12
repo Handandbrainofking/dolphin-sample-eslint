@@ -13,7 +13,7 @@
     [
       "component",
       {
-        "libraryName": "@midea/dolphin-weex-ui",
+        "libraryName": "dolphin-weex-ui",
         "libDir": "packages",
         "style": false
       }

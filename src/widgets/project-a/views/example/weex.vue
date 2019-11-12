@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import { DofMinibar, DofCell2, DofButton } from '@midea/dolphin-weex-ui'
+import { DofMinibar, DofCell2, DofButton } from 'dolphin-weex-ui'
 
 export default {
   components: {

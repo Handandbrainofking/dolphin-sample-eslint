@@ -15,7 +15,7 @@
   </div>
 </template>
 <script>
-import { DofImage, DofButton } from '@midea/dolphin-weex-ui'
+import { DofImage, DofButton } from 'dolphin-weex-ui'
 const globalEvent = weex.requireModule('globalEvent')
 module.exports = {
   components: {
